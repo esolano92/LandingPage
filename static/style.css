@@ -1,0 +1,30 @@
+* {
+    margin: ;
+}
+
+.nav-bar{
+    border: solid green;
+
+}
+ul {
+
+    text-align: end;
+}
+
+li {
+    display: inline-flex;
+    font-size: 2rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+main {
+    display: inline-flex;
+}
+img {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}

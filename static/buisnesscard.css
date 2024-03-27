@@ -1,0 +1,87 @@
+/* style.css */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* Light gray background */
+}
+
+main {
+    width: 1500px;
+    /* Adjusted width for better fit */
+    min-height: 800px;
+    /* Adjusted height to fit content */
+    background-color: #fff;
+    /* White background */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    /* Soft shadow for depth */
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    /* Slightly rounded corners */
+    gap: 20px;
+    /* Space between elements */
+}
+
+.main-picture {
+    width: 300px;
+    /* Adjust based on preference */
+    height: 300px;
+    /* Adjust to maintain aspect ratio */
+    border-radius: 50%;
+    /* Circle shape */
+    object-fit: cover;
+    /* Ensure the image covers the area properly */
+}
+
+h1 {
+    font-size: 56px;
+    /* Adjusted for better visibility */
+    text-align: center;
+    margin: 10px 0;
+    /* Space around the heading */
+}
+
+p {
+    text-align: center;
+    font-size: 32px;
+    /* Adjusted for better readability */
+    margin: 0;
+    /* Adjust as needed */
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    /* Remove bullet points */
+    padding: 0;
+    /* Remove default padding */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /* Space between nav items */
+}
+
+.nav-bar li {
+    cursor: pointer;
+    /* Change cursor on hover to indicate clickability */
+    padding: 5px 10px;
+    border: 1px solid #000;
+    /* Simple border for visibility */
+    border-radius: 5px;
+    /* Rounded corners for the nav items */
+}
+
+.nav-bar img {
+    width: 40px; /* Adjust image width */
+    height: 40px; /* Adjust image height */
+    margin-right: 5px; /* Add margin for spacing */
+}
