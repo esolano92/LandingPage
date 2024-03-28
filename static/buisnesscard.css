@@ -85,30 +85,4 @@ p {
     height: 40px; /* Adjust image height */
     margin-right: 5px; /* Add margin for spacing */
 }
-@media only screen and (max-width: 1500px) {
-    main {
-        width: 90%; /* Adjusted width to make it more responsive */
-        padding: 5px; 
-    }
 
-    .main-picture {
-        height: 150px; /* reduced height of the main picture for smaller screens */
-    }
-
-    h1 {
-        font-size: 26px; /* reduced font size for headings on smaller screens */
-    }
-
-    p {
-        font-size: 18px; /* reduced font size for paragraphs on smaller screens */
-    }
-
-    .nav-bar li {
-        padding: 2px; /* reduced padding for navigation items on smaller screens */
-    }
-
-    .nav-bar img {
-        width: 20px; /* reduced image width for smaller screens */
-        height: 20px; 
-    }
-}
